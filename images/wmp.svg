@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect width="500" height="300" fill="#f7f8fa"/>
+  <!-- observed state -->
+  <circle cx="90" cy="150" r="16" fill="#2b4c9b"/>
+  <text x="90" y="196" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle">observe</text>
+  <!-- imagined branches (dashed, faded) -->
+  <path d="M106 142 C 170 90, 240 80, 310 92" stroke="#9aa7c4" stroke-width="2.5" stroke-dasharray="6 6" fill="none"/>
+  <circle cx="310" cy="92" r="9" fill="none" stroke="#9aa7c4" stroke-width="2.5"/>
+  <path d="M319 88 C 370 78, 410 84, 440 96" stroke="#c3cbdd" stroke-width="2" stroke-dasharray="5 6" fill="none"/>
+  <circle cx="440" cy="96" r="7" fill="none" stroke="#c3cbdd" stroke-width="2"/>
+  <path d="M106 158 C 170 210, 240 222, 310 208" stroke="#9aa7c4" stroke-width="2.5" stroke-dasharray="6 6" fill="none"/>
+  <circle cx="310" cy="208" r="9" fill="none" stroke="#9aa7c4" stroke-width="2.5"/>
+  <!-- committed action (solid) -->
+  <path d="M106 150 L 300 150" stroke="#2b4c9b" stroke-width="3.5" fill="none"/>
+  <path d="M300 150 l -12 -7 v 14 z" fill="#2b4c9b"/>
+  <circle cx="316" cy="150" r="12" fill="#2b4c9b"/>
+  <text x="316" y="196" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle">act</text>
+  <!-- caption -->
+  <text x="250" y="42" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#333" text-anchor="middle">imagine K steps, then commit</text>
+</svg>
