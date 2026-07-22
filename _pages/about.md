@@ -30,8 +30,6 @@ I will be a visiting student at the University of Virginia in Fall 2026.
 **World-Model Planning for Vision-Language Agents**
 
 *Under review*
-
-Extends adaptive-lookahead world-model planning (Imagine-then-Plan) from text-only LLM agents to vision-language agents under a POIMDP formulation. A zero-shot ablation across 150 scenarios showed adaptive lookahead does not help off the shelf: K = 0 / 1 / adaptive gave 24% / 16% / 20%. The payoff appears only after the base policy is RL-trained; a 150-step GRPO run on Qwen2.5-VL-3B then lifted validation success from 27.3% to 37.9%.
 </div>
 </div>
 
@@ -53,11 +51,13 @@ Decomposes multi-cap quantitative funds' excess returns using only published NAV
 
 <div style="display:flex; align-items:center; gap:14px; margin:16px 0;">
   <img src="images/logos/hkust.png" alt="HKUST" style="width:48px; height:48px; object-fit:contain; flex-shrink:0;">
-  <div><strong>Research Assistant, HKUST CSE</strong> <span style="opacity:.65;">· 2026.02 – present</span><br>Advised by Prof. Song Guo and Prof. Jie Zhang.</div>
+  <div><strong>Research Assistant, HKUST CSE</strong> <span style="opacity:.65;">· Feb 2026 – Present</span><br>
+  Advised by Prof. Song Guo and Prof. Jie Zhang.<br>
+  Reinforcement learning for vision-language agents. Ran a 150-scenario zero-shot ablation on lookahead depth, and a 150-step distributed GRPO run on Qwen2.5-VL-3B that lifted validation success from 27.3% to 37.9%. Built a 53,567-sample expert dataset from ALFWorld trajectories to support it.<br>
+  Manuscript under review.</div>
 </div>
 
 <div style="display:flex; align-items:center; gap:14px; margin:16px 0;">
-  <img src="images/logos/huatai.svg" alt="Huatai United Securities" style="width:48px; height:48px; object-fit:contain; flex-shrink:0;">
   <div><strong>Investment Banking Division Intern, Huatai United Securities</strong> <span style="opacity:.65;">· Shanghai · 2026.05 – present</span></div>
 </div>
 
@@ -67,7 +67,6 @@ Decomposes multi-cap quantitative funds' excess returns using only published NAV
 </div>
 
 <div style="display:flex; align-items:center; gap:14px; margin:16px 0;">
-  <img src="images/logos/citic.svg" alt="CITIC Securities" style="width:48px; height:48px; object-fit:contain; flex-shrink:0;">
   <div><strong>Investment Advisory Intern, CITIC Securities</strong> <span style="opacity:.65;">· Xi'an · 2025.12 – 2026.02</span></div>
 </div>
 
