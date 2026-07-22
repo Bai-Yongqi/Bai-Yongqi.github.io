@@ -9,6 +9,8 @@
 title                    : "Yongqi Bai"
 description              : "Academic homepage of Yongqi Bai (白永祺), undergraduate at HKUST."
 repository               : "Bai-Yongqi/Bai-Yongqi.github.io"
+url                      : "https://bai-yongqi.github.io"
+baseurl                  : ""   # 用户站点（USERNAME.github.io）必须为空字符串
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -67,7 +69,6 @@ include:
   - files
 exclude:
   - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
